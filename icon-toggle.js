@@ -1,4 +1,5 @@
-import { PolymerElement, html } from '@polymer/polymer/polymer-element.js';
+import { Element as PolymerElement } from '@polymer/polymer/polymer-element.js';
+import { LitElement, html } from '@polymer/lit-element';
 import '@polymer/iron-icon/iron-icon.js';
 
 class IconToggle extends PolymerElement {
